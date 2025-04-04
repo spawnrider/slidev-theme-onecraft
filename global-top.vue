@@ -8,7 +8,7 @@
     class="absolute p-2 top-0 right-0 z-10"
   >
     <img
-      :src="/logos/+ $slidev.themeConfigs.logoHeader"
+      :src="$slidev.themeConfigs.logoHeader"
       class="h-8 object-contain"
     />
   </header>

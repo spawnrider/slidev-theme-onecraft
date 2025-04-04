@@ -6,7 +6,7 @@ const props = $frontmatter;
   <header v-if="
     props.logo
   " class="absolute p-4 top-0 right-0">
-    <img :src="/logos/ + props.logo
+    <img :src="props.logo
       " class="w-32 object-contain" />
   </header>
 </template>

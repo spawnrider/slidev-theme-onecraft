@@ -1,7 +1,5 @@
 import type { CSSProperties } from 'vue'
 
-const backgroundFolder = '/backgrounds/';
-
 /**
  * Resolve urls from frontmatter and append with the base url
  */
@@ -28,8 +26,8 @@ export function handleBackground(background?: string, dim = false): CSSPropertie
       ? undefined
       : background
         ? dim
-          ? `linear-gradient(#0005, #0008), url("${resolveAssetUrl(backgroundFolder + background)}")`
-          : `url("${resolveAssetUrl(backgroundFolder + background)}")`
+          ? `linear-gradient(#0005, #0008), url("${resolveAssetUrl(background)}")`
+          : `url("${resolveAssetUrl(background)}")`
         : undefined,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',

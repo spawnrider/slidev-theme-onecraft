@@ -1,11 +1,11 @@
 ---
 theme: ./
 layout: cover
-logo: 'logo_onecraft_noir.png'
-background: "background2.jpeg"
+logo: '/logos/logo_onecraft_noir.png'
+background: "/backgrounds/background2.jpeg"
 transition: slide-left
 themeConfig:
-  logoHeader: 'logo_onecraft_fond_blanc.png' 
+  logoHeader: '/logos/logo_onecraft_fond_blanc.png' 
   footerLeft: 'Onecraft software expertise - Template Slidev - Avril 2025'
   footerRight: 'Capgemini 2025. All rights reserved'
 ---
@@ -28,8 +28,8 @@ Yohann Ciurlik
 
 ---
 layout: cover
-logo: 'logo_onecraft_fond_couleur.png'
-background: "background8.jpeg"
+logo: '/logos/logo_onecraft_fond_couleur.png'
+background: "/backgrounds/background8.jpeg"
 ---
 
 # Slidev Theme Onecraft
@@ -50,7 +50,7 @@ Yohann Ciurlik
 
 ---
 layout: cover
-logo: 'logo_onecraft_fond_couleur.png'
+logo: '/logos/logo_onecraft_fond_couleur.png'
 background: "background13.jpeg"
 ---
 
@@ -72,7 +72,7 @@ Yohann Ciurlik
 
 ---
 layout: cover
-logo: 'logo_onecraft_fond_couleur.png'
+logo: '/logos/logo_onecraft_fond_couleur.png'
 background: '#272936'
 ---
 
@@ -94,8 +94,8 @@ Yohann Ciurlik
 
 ---
 layout: cover
-logo: 'logo_capgemini_blanc.svg'
-background: "background5.jpeg"
+logo: '/logos/logo_capgemini_blanc.svg'
+background: "/backgrounds/background5.jpeg"
 dimmed: true
 ---
 
@@ -161,7 +161,7 @@ Presentation slides for developers
 </div>
 
 ---
-background: 'background12.jpeg'
+background: '/backgrounds/background12.jpeg'
 ---
 
 # What is Slidev?
@@ -182,7 +182,7 @@ Slidev is a slide maker and presentation tool designed for developers. It includ
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
-background: 'background9.jpeg'
+background: '/backgrounds/background9.jpeg'
 ---
 
 # Navigation
