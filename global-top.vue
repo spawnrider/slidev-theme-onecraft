@@ -8,12 +8,12 @@
 <template>
   <header
     v-if="
-      logo && $slidev.nav.currentLayout !== 'cover'
+      $slidev.themeConfigs.logoHeader && $slidev.nav.currentLayout !== 'cover'
     "
     class="absolute p-2 top-0 right-0 z-10"
   >
     <img
-      :src="$slidev.themeConfigs.logoHeader"
+      :src="logo"
       class="h-8 object-contain"
     />
   </header>
