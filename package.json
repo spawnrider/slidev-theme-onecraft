@@ -1,0 +1,47 @@
+{
+  "name": "slidev-theme-onecraft",
+  "description": "A theme for Slidev inspired by Onecraft.",
+  "author": {
+    "name": "Yohann Ciurlik",
+    "url": "http://github.com/spawnrider"
+  },
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "capgemini",
+    "onecraft"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@iconify-json/la": "^1.2.1",
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/simple-icons": "^1.2.30",
+    "@slidev/types": "^51.5.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^51.5.0",
+    "playwright-chromium": "^1.51.1"
+  },
+  "//": "Learn more: https://sli.dev/guide/write-theme.html",
+  "slidev": {
+    "colorSchema": "dark",
+    "highlighter": "shiki",
+    "defaults": {
+      "fonts": {
+        "sans": "Ubuntu",
+        "mono": "Ubuntu Mono"
+      }
+    }
+  }
+}

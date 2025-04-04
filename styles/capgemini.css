@@ -1,0 +1,7 @@
+html:not(.dark) {
+    /* light mode css here */
+}
+  
+html.dark {
+/* dark mode css here */
+}
