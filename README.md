@@ -31,6 +31,7 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 
 ## Example
 - See [PDF exported version](./example.pdf)
+- See [sample implementation](https://gist.github.com/spawnrider/6ad434f8526e6b0a3993c47b729581b0)
 
 ## Layouts
 
