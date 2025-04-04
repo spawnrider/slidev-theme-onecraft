@@ -51,7 +51,7 @@ Yohann Ciurlik
 ---
 layout: cover
 logo: '/logos/logo_onecraft_fond_couleur.png'
-background: "background13.jpeg"
+background: "/backgrounds/background13.jpeg"
 ---
 
 # Slidev Theme Onecraft
