@@ -1,13 +1,8 @@
 <template>
   <div class="bg-section slidev-layout new-section">
-    <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
     <div class="flex flex-col justify-center text-center">
       <slot></slot>
     </div>
-    <AsGraphic
-      type="zigzag"
-      class="absolute top-20 -right-30"
-    />
   </div>
 </template>
 

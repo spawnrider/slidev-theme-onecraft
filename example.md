@@ -301,11 +301,11 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 
 ---
 layout: text-image
-media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
-caption: 'I am a penguin'
+media: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Izd3EzZnhvY2ZxM2wydHN6aGwzeXZldG9wanVkMzBvd3l4MHgyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13rQ7rrTrvZXlm/giphy.gif'
+caption: 'It''s incredible'
 ---
 
-# This is a peguin 🐧
+# Quick introduction 🚀
 
 Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita?
 
@@ -315,10 +315,10 @@ Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta chamito;? 
 ---
 layout: text-image
 reverse: true
-media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
+media: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Izd3EzZnhvY2ZxM2wydHN6aGwzeXZldG9wanVkMzBvd3l4MHgyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13rQ7rrTrvZXlm/giphy.gif'
 ---
 
-# This is a reverse peguin
+# This is a reverse style
 
 Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta mierdaa menool ladilla chamito;? Nisl nojoda eu amet in
 
@@ -328,11 +328,51 @@ layout: new-section
 
 # New wild section appeared
 
-![penguin-work](https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif)
+![incredible-work](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Izd3EzZnhvY2ZxM2wydHN6aGwzeXZldG9wanVkMzBvd3l4MHgyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13rQ7rrTrvZXlm/giphy.gif)
 
 
 ---
 layout: two-cols
+---
+Awiwiiw
+
+```vue
+// Model.vue
+<script setup lang="ts">
+import { useAnimations, useGLTF } from '@tresjs/cientos'
+
+const { scene: model, animations } = await useGLTF(
+  'models/ugly-bunny.gltf',
+)
+
+const { actions, mixer } = useAnimations(animations, model)
+const currentAction = ref(actions.Greeting)
+currentAction.value.play()
+</script>
+
+<template>
+  <primitive :object="model" />
+</template>
+```
+
+::right::
+
+```vue
+<template>
+  <TresCanvas
+    clear-color="”#82DBC5”"
+    window-size
+  >
+    <TresPerspectiveCamera />
+    <Suspense>
+      <Model />
+    </Suspense>
+  </TresCanvas>
+</template>
+```
+
+---
+layout: two-thirds
 ---
 Awiwiiw
 
@@ -398,11 +438,6 @@ app.use(VueDynamicForms)
 ---
 layout: text-window
 reverse: true
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvarosabu'
-twitterUrl: 'https://twitter.com/alvarosabu'
 ---
 
 # Embedded stuff
