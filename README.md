@@ -59,7 +59,7 @@ themeConfig:
 Note that logos are located in the *'public/logos'* folder.
 
 #### Preview
-![alt text](example-export/19.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/20.png)
 
 ### Cover
 Usage:
@@ -82,11 +82,11 @@ background: "background8.jpeg"
 ---
 ```
 Preview:
-![alt text](example-export/1.png)
-![alt text](example-export/2.png)
-![alt text](example-export/3.png)
-![alt text](example-export/4.png)
-![alt text](example-export/5.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/1.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/2.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/3.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/4.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/5.png)
 
 ### Agenda
 It's not a specific layout but you can use the `image-right` layout to create a quick agenda
@@ -98,7 +98,7 @@ image: 'bulb.jpg'
 ---
 ```
 Preview:
-![alt text](example-export/6.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/6.png)
 
 
 ### Presenter
@@ -113,7 +113,7 @@ presenterImage: 'https://avatars.githubusercontent.com/u/107427?v=4'
 --- 
 ```
 Preview:
-![alt text](example-export/7.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/7.png)
 
 ### New Section
 Usage: 
@@ -125,7 +125,7 @@ layout: new-section
 ---
 ```
 Preview:
-![alt text](example-export/15.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/15.png)
 
 ### Text & Image
 Usage :
@@ -143,7 +143,7 @@ caption: 'It''s incredible'
 ---
 ``` 
 Preview:
-![alt text](example-export/13.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/13.png)
 
 
 ### Text & Window
@@ -160,7 +160,7 @@ reverse: true
 ```
 
 Preview:
-![alt text](example-export/18.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/18.png)
 
 ### Two columns
 Usage :
@@ -174,7 +174,7 @@ layout: two-cols
 ```
 
 Preview:
-![alt text](example-export/16.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/16.png)
 
 ### Two thirds
 Usage :
@@ -188,7 +188,7 @@ layout: two-thirds
 ```
 
 Preview:
-![alt text](example-export/17.png)
+![alt text](https://github.com/spawnrider/slidev-theme-onecraft/blob/master/example-export/17.png)
 
 ### Others layouts / samples
 See the `example-export` folder or [example.md](example.md) to find others layouts or samples.
